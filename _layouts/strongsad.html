@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>{{site.title-sec}}</title>
-		<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	</head>
 	<body>
 		<header>
@@ -61,45 +61,45 @@
 						<!--why liquid. why do you have shitty program flow-->
 						{%assign mood = post.mood | downcase%}
 						{%if mood == "reticent"%}
-						<img src="/assets/img/sadicon1.gif">
+						<img src="assets/img/sadicon1.gif">
 						{%elsif mood == "stalwart"%}
-						<img src="/assets/img/sadicon1.gif">
+						<img src="assets/img/sadicon1.gif">
 						{%elsif mood == "more humbled than usual"%}
-						<img src="/assets/img/sadicon1.gif">
+						<img src="assets/img/sadicon1.gif">
 						{%elsif mood == "whimsically whistful"%}
-						<img src="/assets/img/sadicon1.gif">
+						<img src="assets/img/sadicon1.gif">
 						{%elsif mood == "torn"%}
-						<img src="/assets/img/sadicon1.gif">
+						<img src="assets/img/sadicon1.gif">
 						{%elsif mood == "smarmy"%}
-						<img src="/assets/img/sadicon2.gif">
+						<img src="assets/img/sadicon2.gif">
 						{%elsif mood == "stereotyped and classified"%}
-						<img src="/assets/img/sadicon2.gif">
+						<img src="assets/img/sadicon2.gif">
 						{%elsif mood == "rotten inside"%}
-						<img src="/assets/img/sadicon2.gif">
+						<img src="assets/img/sadicon2.gif">
 						{%elsif mood == "still alive."%}
-						<img src="/assets/img/sadicon3.gif">
+						<img src="assets/img/sadicon3.gif">
 						{%elsif mood == "meh"%}
-						<img src="/assets/img/sadicon3.gif">
+						<img src="assets/img/sadicon3.gif">
 						{%elsif mood == "devoid"%}
-						<img src="/assets/img/sadicon3.gif">
+						<img src="assets/img/sadicon3.gif">
 						{%elsif mood == "less reticent"%}
-						<img src="/assets/img/sadicon3.gif">
+						<img src="assets/img/sadicon3.gif">
 						{%elsif mood == "brissly"%}
-						<img src="/assets/img/sadicon4.gif">
+						<img src="assets/img/sadicon4.gif">
 						{%elsif mood == "sebaceous"%}
-						<img src="/assets/img/sadicon4.gif">
+						<img src="assets/img/sadicon4.gif">
 						{%elsif mood == "getting fustrated"%}
-						<img src="/assets/img/sadicon5.gif">
+						<img src="assets/img/sadicon5.gif">
 						{%elsif mood == "whimsically whistful"%}
-						<img src="/assets/img/sadicon6.gif">
+						<img src="assets/img/sadicon6.gif">
 						{%elsif mood == "self pitying"%}
-						<img src="/assets/img/sadicon6.gif">
+						<img src="assets/img/sadicon6.gif">
 						{%elsif mood == "slight"%}
-						<img src="/assets/img/sadicon6.gif">
+						<img src="assets/img/sadicon6.gif">
 						{%elsif mood == "the frig?"%}
-						<img src="/assets/img/sadicon7.gif">
+						<img src="assets/img/sadicon7.gif">
 						{%else%}
-						<img src="/assets/img/sadicon{{forloop.index | modulo: 7 | plus: 1}}.gif">
+						<img src="assets/img/sadicon{{forloop.index | modulo: 7 | plus: 1}}.gif">
 						{%endif%}
 						{{mood}}
 					</span></span>
