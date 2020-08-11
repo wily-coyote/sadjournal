@@ -9,7 +9,7 @@ body{
 	margin: 8px auto;
 }
 article .header, header .header{
-	background: url("../assets/img/headerbg.gif");
+	background: url("../img/headerbg.gif");
 	height: 25px;
 	line-height: 25px;
 	padding: 0 .5em;
@@ -33,7 +33,7 @@ article .content:after{
 	width: 100%;
 	height: 5px;
 	display: block;
-	background: url("../assets/img/divider.gif");
+	background: url("../img/divider.gif");
 }
 article .header .datestamp{
 	font-size: x-small;
@@ -62,7 +62,7 @@ article .content .status{
 header .content.profile{
 	box-sizing: border-box;
 	height: 150px;
-	background: url("../assets/img/sadface.gif") no-repeat bottom right;
+	background: url("../img/sadface.gif") no-repeat bottom right;
 }
 header .header{
 	/*Redundancy*/
