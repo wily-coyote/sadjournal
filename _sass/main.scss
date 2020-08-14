@@ -69,10 +69,15 @@ header .header{
 	font-weight: bold;
 }
 header .content #user-pic{
-	border: 2px solid black;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
+}
+.post-content img{
+	border: 2px solid black;
+	max-width: 200px;
+	display: block;
+	margin: 1em 0;
 }
 header .content #user-info{
 	display: inline-block;
